@@ -1,0 +1,10 @@
+AddType x-mapp-php6 .php 
+ErrorDocument 404 /404.php
+Options +FollowSymLinks
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} !^yoyobusker\.com
+RewriteCond %{HTTP_HOST} !^yoyobusker\.co.uk
+RewriteRule (.*) http://yoyobusker.com/$1 [R=301,L]
