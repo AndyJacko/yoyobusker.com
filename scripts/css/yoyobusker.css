@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
-@import url(https://fonts.googleapis.com/css?family=Lobster);
-html {
-  position: relative;
-  min-height: 100%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
 
 body {
   color: #fff;
@@ -12,99 +8,41 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px;
-  padding: 15px;
-  color: #fff;
-  font-family: "Lobster", Georgia, serif;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 0 0 5px #000;
 }
 
-p {
-  font-family: "Roboto", Arial, sans-serif;
-}
-
-a {
+a, a:hover {
   color: #fff;
   font-weight: bold;
 }
-a:hover {
-  color: #bfbfbf;
-}
-a:focus {
-  color: #bfbfbf;
-}
 
-#video-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
+header {
+  position: relative;
+  background-color: #000;
+  height: 100vh;
   width: 100%;
-  height: 100%;
   overflow: hidden;
 }
 
-#video-container video {
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  z-index: 0;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0.5;
 }
 
-#don8 {
-  text-align: center;
-  text-shadow: 2px 2px 2px #000;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+header .container {
+  position: relative;
+  z-index: 1;
 }
 
-#don8 a {
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid #000;
-  background: rgba(200, 0, 0, 0.5);
-  color: #fff;
-  cursor: pointer;
-}
-
-#don8 a:hover {
-  text-decoration: none;
-  background: #640000;
-}
-
-#header {
+footer {
   color: #d9d9d9;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  padding: 5px;
 }
-
-#footer {
-  color: #d9d9d9;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  text-align: center;
-}
-
-#follow {
-  margin: 10px 0;
-}
-
-#copy {
-  font-size: 12px;
-  margin: 10px 0;
-}
-
-/*# sourceMappingURL=yoyobusker.css.map */

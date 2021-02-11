@@ -4,43 +4,34 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="YoYo Busking on the streets of the UK.">
+    <meta name="description" content="YoYo Busking on the streets of the UK and Worldwide.">
     <meta name="author" content="Andy Jacko">
     <title>Andy Jacko - YoYo Busker</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="scripts/css/yoyobusker.css" rel="stylesheet" type="text/css">
-    <script src="https://kit.fontawesome.com/14de8a855b.js"></script>
+    <script src="https://kit.fontawesome.com/8692751f21.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    <div id="video-container">
+    <header>
       <video autoplay muted loop>
         <source src="video/yoyobusker.mp4" type="video/mp4">
       </video>
-    </div>
 
-    <div id="header">
-      <img src="images/yoyobusker.png" alt="Andy Jacko - YoYo Busker" class="img-fluid">
-    </div>
+      <div class="container h-75">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100">
+            <h1 class="display-3 my-5">Andy Jacko <span class="d-none d-md-inline"> - </span><br class="d-block d-md-none"> YoYo Busker</h1>
+            <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="yoyobusker" data-color="#FF5F5F" data-emoji="" data-font="Arial" data-text="BUY ME A COFFEE" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+          </div>
+        </div>
+      </div>
+    </header>
 
-    <div id="don8">
-      <a href="https://www.paypal.me/AndyJacko" class="don8" target="_blank">Donate Online</a>
-    </div>
-
-    <div id="footer">
-      <p id="follow" class="d-none d-sm-block">
-        Follow: <a href="https://www.facebook.com/yoyobusker" target="_blank"><i class="fab fa-facebook-square"></i></a> 
-        <a href="https://www.instagram.com/yoyobusker" target="_blank"><i class="fab fa-instagram"></i></a> @yoyobusker - Tag media #yoyobusker
-      </p>
-      <p id="follow" class="d-block d-sm-none">
-        Follow: <a href="https://www.facebook.com/yoyobusker" target="_blank"><i class="fab fa-facebook-square"></i></a> 
-        <a href="https://www.instagram.com/yoyobusker" target="_blank"><i class="fab fa-instagram"></i></a> @yoyobusker <br> Tag media #yoyobusker
-      </p>
-      <p id="copy">YoYoBusker.com &copy; <?php echo date("Y"); ?>. All Rights Reserved.</p>
-    </div>
+    <footer class="w-100 pt-3 text-center">
+      <p class="fs-4">Follow: <a href="https://www.facebook.com/yoyobusker" target="_blank"><i class="fab fa-facebook-square"></i></a> <a href="https://www.instagram.com/yoyobusker" target="_blank"><i class="fab fa-instagram"></i></a> @yoyobusker <span class="d-none d-md-inline"> - </span><br class="d-block d-md-none"> Tag media #yoyobusker</p>
+      <p class="fs-6 text-white-50">YoYoBusker.com &copy; <?php echo date("Y"); ?>. All Rights Reserved.</p>
+    </footer>
   </body>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="scripts/js/yoyobusker.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
 </html>
