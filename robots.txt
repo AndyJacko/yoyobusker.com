@@ -2,4 +2,3 @@ User-Agent: *
 Allow: /
 Disallow: /backups/
 Disallow: /scripts/
-Sitemap: http://yoyobusker.com/sitemap.xml
